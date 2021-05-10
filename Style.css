@@ -1,0 +1,62 @@
+h1 {color:rgb(247, 160, 0)} 
+h2 {color:rgb(38, 78, 255)}   
+h3 {color:rgb(38, 255, 237)}  
+h4 {color:crimson}
+
+
+body{background-color: #AACC00;}
+
+a {color:beige}
+a:visited{color:blueviolet}
+
+.Header{
+    background-color:#00FFAA;
+   padding-left:30px;
+
+   transform : translate(0px , 0px);
+}
+
+.Games{
+   
+
+    background-color:#FFCC00;
+
+    display:flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+.Item{
+   background-color:rgb(64, 195, 255);
+
+   padding-left : 75px;
+
+   position : relative;
+}
+
+.Menu{
+
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Item p{
+    position : absolute;
+
+    top : 50%;
+    left : 50%;
+
+    transform : translate(-40% , -50%);
+    opacity:0;
+}
+
+.Item:hover p{
+opacity: 1;
+
+}
+
+.Item:hover img{
+opacity:0.5
+
+}
